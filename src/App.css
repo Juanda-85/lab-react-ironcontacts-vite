@@ -40,3 +40,85 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.headerButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2;
+}
+
+.headerButton:hover {
+  background-color: #0056b3;
+}
+
+.button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 2vw;
+  margin-right: 1vw;
+}
+
+.button:hover {
+  background-color: #c82333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ccc; /* Add border to the table */
+
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Add bottom border to table cells */
+
+}
+
+thead {
+  background-color: #343a40;
+  color: white;
+  border-bottom: 2px solid #ccc; /* Add thicker bottom border to the header */
+
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+img {
+  max-width: 50px;
+  height: auto;
+}
+
+.action-column {
+  width: 100px;
+}
+
+button:focus {
+  outline: none;
+}
